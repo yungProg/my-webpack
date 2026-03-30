@@ -4,7 +4,10 @@
   "description": "This repository is template with basic files and configurations for my node.js projects",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack serve",
+    "deploy": "git subtree push --prefix dist origin github-pages"
   },
   "repository": {
     "type": "git",
